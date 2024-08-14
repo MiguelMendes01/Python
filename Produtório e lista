@@ -1,0 +1,12 @@
+q=int(input("Quantos números vão ser digitados? "))
+prod=1
+lista=[0]*q
+
+for i in range(q):
+    lista[i]=int(input(f"Digite o {i+1} valor: "))
+    prod=prod*lista[i]
+print("*"*20)
+print(f"o produtório é: {prod}")
+print("*"*20)
+print(lista)
+print("*"*20)
